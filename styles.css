@@ -494,3 +494,44 @@ textarea{
   }
 
 }
+
+@media (max-width: 820px){
+
+  .finca-text p{
+    text-align: justify;
+    text-justify: inter-word;
+
+    /* Guionado correcto */
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+
+    /* Mejora de lectura en móvil */
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+}
+
+@media (max-width: 820px){
+
+  .phone{
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  .header-inner{
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+  .brand{
+    padding-left: 0.2rem;
+  }
+
+}
+
+@media (max-width: 420px){
+  .phone{
+    font-size: 0.85rem;
+  }
+}
+
