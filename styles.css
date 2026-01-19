@@ -459,12 +459,38 @@ textarea{
 /* =========================
    RESPONSIVE
 ========================= */
-@media (max-width:768px){
+@media (max-width: 820px){
+
+  /* HERO */
   .hero-text h2{
-    font-size:2.5rem;
+    font-size:2.4rem;
   }
 
   .hero-highlights{
     gap:0.6rem;
   }
+
+  /* FINCA */
+  .finca-inner{
+    grid-template-columns: 1fr !important;
+    gap:2rem;
+  }
+
+  .finca-text{
+    order:1;
+  }
+
+  .finca-images{
+    order:2;
+  }
+
+  .finca-text p{
+    text-align:left;
+  }
+
+  .finca-images img{
+    max-width:100%;
+    margin:0 auto;
+  }
+
 }
