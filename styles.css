@@ -194,7 +194,7 @@ body{
 ========================= */
 .gallery{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas en desktop */
   gap:14px;
   padding:3.5rem 0;
   padding-left: 0.6rem;
