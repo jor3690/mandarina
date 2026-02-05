@@ -1,0 +1,20 @@
+[
+    {
+      "nombre": "María",
+      "ubicacion": "Valencia",
+      "texto": "Llegaron perfectas, muy dulces y fáciles de pelar. Repetiremos seguro.",
+      "estrellas": 5
+    },
+    {
+      "nombre": "Carlos",
+      "ubicacion": "Madrid",
+      "texto": "Se nota que están recién cogidas. Muy buena calidad.",
+      "estrellas": 5
+    },
+    {
+        "nombre": "Lucía",
+        "ubicacion": "Bilbao",
+        "texto": "El envío fue rapidísimo y las mandarinas están espectaculares.",
+        "estrellas": 5
+    }
+  ]  

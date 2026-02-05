@@ -74,15 +74,21 @@
   
 
 <section class="gallery container">
-  <img src="img/fotomontana.jpg" alt="Detalle de mandarinas">
-  <img src="img/tango3.webp" alt="Recolección manual">
-  <img src="img/mandarinas02.jpg" alt="Mandarinas recién cogidas">
-  <img src="img/tango4.webp" alt="Mandarinas recién cogidas">
-  <img src="img/mandarinas04.jpg" alt="Mandarinas recién cogidas">
-  <img src="img/fotopiscina.jpg" alt="Caja de mandarinas">
-  <!--<img src="img/tango5.webp" alt="Caja de mandarinas">-->
-</section>
-
+    <div class="gallery-header">
+      <span class="gallery-eyebrow">Galería</span>
+    <h3>Cosecha de Autor</h3>
+  </div>
+  <div class="gallery-grid">
+    <img src="img/fotomontana.jpg" alt="Detalle de mandarinas">
+    <img src="img/tango3.webp" alt="Recolección manual">
+    <img src="img/mandarinas02.jpg" alt="Mandarinas recién cogidas">
+    <img src="img/tango4.webp" alt="Mandarinas recién cogidas">
+    <img src="img/mandarinas04.jpg" alt="Mandarinas recién cogidas">
+    <img src="img/fotopiscina.jpg" alt="Caja de mandarinas">
+   </div>
+</section>  
+  
+  
 <section class="finca">
   <div class="container finca-inner">
 
@@ -107,12 +113,17 @@
       </p>
 
       <p class="finca-signature">
-        Tres generaciones dedicadas a la agricultura.
+        Tres generaciones dedicadas a la agricultura.<br>
+        <a href="https://www.villasansofi.com" target="_blank" class="finca-editorial-link">
+          Conoce la casa en Villa Sansofí
+        </a>
       </p>
     </div>
 
     <div class="finca-images">
-      <img src="img/fotofinca2.webp" alt="Casa de la finca rodeada de naranjos">
+      <a href="https://www.villasansofi.com" target="_blank" class="finca-image-link">
+        <img src="img/fotofinca2.webp" alt="Casa de la finca rodeada de naranjos">
+      </a>
     </div>
 
   </div>
@@ -120,6 +131,7 @@
 
 <section class="process">
   <div class="container">
+    <span class="process-eyebrow">Proceso</span>
     <h3>Cómo funciona</h3>
 
     <div class="steps">
@@ -160,12 +172,94 @@
   </div>
 </section>
 
+<!--
+<section class="testimonials">
+  <div class="container testimonials-inner">
+
+    <span class="testimonials-eyebrow">Experiencias</span>
+    <h3>La experiencia Sansofí</h3>
+
+    <p class="testimonials-intro">
+      Personas que ya han recibido mandarinas de la Finca Sansofí y comparten su experiencia.
+    </p>
+
+    <div class="senja-frame">
+
+      <script type="text/javascript" src="https://widget.senja.io/js/iframeResizer.min.js"></script>
+
+      <iframe
+        id="senja-collector-iframe"
+        src="https://senja.io/p/mandarinas-sansofi/r/JDikUk?mode=embed"
+        allow="camera;microphone"
+        title="Experiencias Mandarina Sansofí"
+        frameborder="0"
+        scrolling="no"
+        width="100%"
+        height="50">
+      </iframe>
+
+      <script type="text/javascript">
+        iFrameResize({ log: false, checkOrigin: false }, "#senja-collector-iframe");
+      </script>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="testimonials">
+  <div class="container testimonials-inner">
+    <span class="testimonials-eyebrow">Opiniones reales</span>
+    <h3>Experiencias Sansofí</h3>
+    <p class="testimonials-intro">
+      Nuestros clientes comparten el sabor de la Finca Sansofí en sus casas.
+    </p>
+
+    <div class="famewall-wrapper">
+      <script type="text/javascript" src="https://page.famewall.io/iframeResizer.min.js"></script>
+      <iframe id="famewall-collection-embed" src="https://page.famewall.io/mandarinasansofi?widget-embed=1" allow="camera;microphone" frameborder="0" scrolling="no" width="100%"></iframe>
+      <script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#famewall-collection-embed");</script>
+    </div>
+
+    <div style="margin-top: 2rem;">
+      <a href="https://page.famewall.io/mandarinasansofi" target="_blank" class="btn-secondary">
+        Escribir mi opinión 🍊
+      </a>
+    </div>
+  </div>
+</section>-->
+
+
+<section class="testimonials">
+  <div class="container testimonials-inner">
+    <span class="testimonials-eyebrow">Opiniones reales</span>
+    <h3>Experiencias Sansofí</h3>
+    <p class="testimonials-intro">
+      Personas que ya han recibido mandarinas de la Finca Sansofí y comparten su experiencia.
+    </p>
+
+    <div class="testimonial-grid" id="testimonials-grid">
+      </div>
+
+    <div class="testimonial-actions" id="testimonial-actions">
+      <a href="https://form.jotform.com/260341765330047" target="_blank" class="btn-secondary">
+        Escribir mi opinión
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
 
 <section class="product container">
+  <span class="product-eyebrow">Producto</span>
   <h3>Formatos disponibles</h3>
 
   <div class="product-grid">
-    <div class="product-card" data-format="8kg">
+    <div class="product-card" data-format="5kg">
       <div class="product-image">
         <img src="img/fotocaja2.jpg" alt="Caja de mandarinas gourmet 5 kg">
       </div>
@@ -205,6 +299,7 @@
 
 <section id="pedido" class="order">
   <div class="container">
+    <span class="order-eyebrow">Pedido</span>
     <h3>Tramitar pedido</h3>
 
     <p class="order-intro">
@@ -250,6 +345,54 @@
   );
 </script>
 
+<script>
+  let todasLasOpiniones = [];
+  let opinionesVisibles = 2; 
+
+  const grid = document.getElementById('testimonials-grid');
+  const actionsContainer = document.getElementById('testimonial-actions');
+  const btnVerMas = document.createElement('button');
+
+  function renderHTML(lista) {
+    grid.innerHTML = ''; 
+    lista.forEach(op => {
+      const stars = "★".repeat(op.estrellas);
+      const card = document.createElement('div');
+      card.className = "testimonial-card";
+      card.innerHTML = `
+        <p class="testimonial-text">"${op.texto}"</p>
+        <div class="testimonial-meta">
+          <strong>${op.nombre} · ${op.ubicacion}</strong>
+          <span>${stars}</span>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  fetch('./opiniones.json')
+    .then(res => res.json())
+    .then(data => {
+      todasLasOpiniones = data;
+      renderHTML(todasLasOpiniones.slice(0, opinionesVisibles));
+
+      if (todasLasOpiniones.length > opinionesVisibles) {
+        btnVerMas.innerText = "Ver más opiniones";
+        btnVerMas.className = "btn-secondary";
+        // Lo insertamos al principio del contenedor de acciones
+        actionsContainer.prepend(btnVerMas);
+
+        btnVerMas.addEventListener('click', () => {
+          renderHTML(todasLasOpiniones);
+          btnVerMas.remove(); // Desaparece al mostrar todas
+        });
+      }
+    })
+    .catch(err => {
+      console.error("Error:", err);
+      grid.innerHTML = "<p>Cargando experiencias...</p>";
+    });
+</script>
 
 </body>
 </html>
